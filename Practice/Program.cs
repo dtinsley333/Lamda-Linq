@@ -9,7 +9,7 @@ namespace Practice
         static void Main(string[] args)
         {
 
-           List<Customer> highVolumeCustomers = GetHighVolumeCustomers();
+           List<Customer> highVolumeCustomers = GetCustomerOrders();
 
             //load the list with customer class instances
             List<Customer> customers = highVolumeCustomers
@@ -25,7 +25,7 @@ namespace Practice
                 Console.WriteLine("Name: " + customer.Name + " Order Count: " + customer.OrderCount);
             };
 
-            List<Customer> GetHighVolumeCustomers()
+            List<Customer> GetCustomerOrders()
             {
                 //create a object to store customer names and order count
                 List<Customer> customerOrders = new List<Customer>();
