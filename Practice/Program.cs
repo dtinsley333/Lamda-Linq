@@ -71,8 +71,6 @@ namespace Practice
                 return customerOrders;
             }
 
-           
-
             Console.Read();
         }
         public class Customer
@@ -81,10 +79,6 @@ namespace Practice
             public string Name { get; set; }
 
         }
-   
-
-
-
    
     }
 }
